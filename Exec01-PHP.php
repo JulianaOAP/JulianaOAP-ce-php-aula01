@@ -35,7 +35,7 @@
                 </tr>
                 <tr>
                     <td>B<sup>A</sup></td> 
-                    <td><?php echo number_format(pow($b, $a), 3, '.', '.'); ?></td>
+                    <td><?php echo number_format(pow($b, $a), 0, '.', '.'); ?></td>
                 </tr>
             </table>
       

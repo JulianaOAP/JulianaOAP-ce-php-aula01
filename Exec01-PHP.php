@@ -31,7 +31,7 @@
                 </tr>
                 <tr>
                     <td>A / B</td>
-                    <td><?php echo $a / $b; ?></td>
+                    <td><?php echo number_format(($a / $b), 2,'.', '.'); ?></td>
                 </tr>
                 <tr>
                     <td>B<sup>A</sup></td> 
